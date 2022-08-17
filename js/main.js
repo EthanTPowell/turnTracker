@@ -30,6 +30,7 @@ startButton.addEventListener("click", () => {
     let firstPlayer = document.getElementById(`${players[counter.valueOf()]}`);
     firstPlayer.setAttribute('style', 'background-color: #FDFF47')
     turnDisplay.innerHTML += `<h2 id="turnNum">${turnCounter.valueOf()}</h2>`
+    startButton.remove();
 
 
 });
