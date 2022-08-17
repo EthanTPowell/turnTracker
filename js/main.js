@@ -41,7 +41,6 @@ reset.addEventListener('click', () => {
 turn.addEventListener('click', () => {
     
     if (counter.valueOf() < players.length - 1) {
-        console.log('ligma')
         counter++
         let currentPlayer = document.getElementById(`${players[counter.valueOf()]}`);
         let previous = document.getElementById(`${players[counter.valueOf() - 1]}`);
