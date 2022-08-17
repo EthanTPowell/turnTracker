@@ -1,0 +1,18 @@
+#currentPlayers{
+    border: 1px solid black;
+    padding: 3px;
+};
+
+#submitButton{
+    margin: 5   px;
+};
+
+#currentPlayers{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+};
+
+#turnDisplay{
+    border: 1px solid black;
+}
